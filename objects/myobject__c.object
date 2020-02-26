@@ -165,6 +165,35 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>basicpicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>basicpicklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>value1</fullName>
+                    <default>false</default>
+                    <label>value1</label>
+                </value>
+                <value>
+                    <fullName>value2</fullName>
+                    <default>false</default>
+                    <label>value2</label>
+                </value>
+                <value>
+                    <fullName>value3</fullName>
+                    <default>false</default>
+                    <label>value3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>mytextfield__c</fullName>
         <externalId>false</externalId>
         <label>mytextfield</label>
